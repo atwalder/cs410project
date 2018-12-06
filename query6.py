@@ -136,7 +136,7 @@ def BFS(doc):
                     path.append(nextChild['id'])
                     open_set.append(nextChild)
         closed_set.append(root)
-        if len(closed_set) == 1193971:
+        if len(closed_set) == 1193971: ##is it equivalent to the number of documents in the database (not including view documents)
             print("closed_set: ")
             print(closed_set)
             print("path: ")

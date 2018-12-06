@@ -43,6 +43,7 @@ for id in db:
         papers+=doc['author_of']
 level3 = find(db, papers)
 level3 = process(elimate, level3)
+level3 = level3-level2-level1
 print("Michael Stonebraker: ", len(level3), " level 3 co-authors.")
 
 

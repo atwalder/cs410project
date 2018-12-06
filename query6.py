@@ -1,3 +1,4 @@
+###Python 3.4.3 
 ##cs410 project
 ##query for DBLP Connectivity: Is the DBPL graph connected? (That is, is there a path between any two objects?)
 ##December 5, 2018
